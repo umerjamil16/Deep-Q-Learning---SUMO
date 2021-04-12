@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on Fri Feb 14 11:42:16 2020 by Eclipse SUMO duarouter Version 1.2.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+purpose?
+
+    <input>
+        <net-file value="includes/sumo/tlc.net.xml"/>
+        <route-files value="includes/sumo/trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="includes/sumo/result.rou.xml"/>
+        <alternatives-output value="includes/sumo/result.rou.alt.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="E0_W0" depart="0.00">
+        <route edges="E02TL0 TL02W0"/>
+    </vehicle>
+    <vehicle id="E0_N0" depart="0.00">
+        <route edges="E02TL0 TL02N0"/>
+    </vehicle> 
+    <vehicle id="E0_S0" depart="0.00">
+        <route edges="E02TL0 TL02S0"/>
+    </vehicle>
+    <vehicle id="W0_E0" depart="0.00">
+        <route edges="W02TL0 TL02E0"/>
+    </vehicle>
+    <vehicle id="W0_N0" depart="0.00">
+        <route edges="W02TL0 TL02N0"/>
+    </vehicle>
+    <vehicle id="W0_S0" depart="0.00">
+        <route edges="W02TL0 TL02S0"/>
+    </vehicle>
+    <vehicle id="N0_E0" depart="0.00">
+        <route edges="N02TL0 TL02E0"/>
+    </vehicle>
+    <vehicle id="N0_W0" depart="0.00">
+        <route edges="N02TL0 TL02W0"/>
+    </vehicle>
+    <vehicle id="N0_S0" depart="0.00">
+        <route edges="N02TL0 TL02S0"/>
+    </vehicle>
+    <vehicle id="S0_E0" depart="0.00">
+        <route edges="S02TL0 TL02E0"/>
+    </vehicle>
+    <vehicle id="S0_W0" depart="0.00">
+        <route edges="S02TL0 TL02W0"/>
+    </vehicle>
+    <vehicle id="S0_N0" depart="0.00">
+        <route edges="S02TL0 TL02N0"/>
+    </vehicle>
+</routes>

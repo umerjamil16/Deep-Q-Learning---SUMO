@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<trips>
+  <trip id="E_W" depart="0" from="E2TL" to="TL2W"/>
+  <trip id="E_N" depart="0" from="E2TL" to="TL2N"/>
+  <trip id="E_S" depart="0" from="E2TL" to="TL2S"/>
+  <trip id="W_E" depart="0" from="W2TL" to="TL2E"/>
+  <trip id="W_N" depart="0" from="W2TL" to="TL2N"/>
+  <trip id="W_S" depart="0" from="W2TL" to="TL2S"/>
+  <trip id="N_E" depart="0" from="N2TL" to="TL2E"/>
+  <trip id="N_W" depart="0" from="N2TL" to="TL2W"/>
+  <trip id="N_S" depart="0" from="N2TL" to="TL2S"/>
+  <trip id="S_E" depart="0" from="S2TL" to="TL2E"/>
+  <trip id="S_W" depart="0" from="S2TL" to="TL2W"/>
+  <trip id="S_N" depart="0" from="S2TL" to="TL2N"/>
+</trips>
+
